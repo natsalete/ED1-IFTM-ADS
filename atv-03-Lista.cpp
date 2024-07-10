@@ -105,6 +105,7 @@ struct Lista {
 };
 
 int main(){
+    //3. Crie um método que seja capaz de inserir no final da lista o tamanho atual da lista.
     Lista l;
 
     int a;
