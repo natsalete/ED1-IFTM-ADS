@@ -120,6 +120,7 @@ int main(){
         l.inserirFinal(d);
     }
 
+    cout << "Lista original:" << endl;
     l.imprimir();
 
     int n;
@@ -130,6 +131,7 @@ int main(){
         l.removerFinal();
     }
 
+    cout << "Lista apos remocao dos N ultimos elementos da lista:" << endl;
     l.imprimir();
 
     return 0;

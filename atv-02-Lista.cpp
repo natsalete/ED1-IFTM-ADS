@@ -108,10 +108,12 @@ int main() {
         l.inserirFinal(d);
     }
 
+    cout << "Lista original:" << endl;
     l.imprimir();
 
     l.removerSegundoElemento();
 
+    cout << "Lista apos remocao do segundo elemento da lista, caso a lista tenha tamanho <= 1:" << endl;
     l.imprimir();
 
     return 0;

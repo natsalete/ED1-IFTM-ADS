@@ -125,11 +125,13 @@ int main(){
         cin >> d;
         l.inserirFinal(d);
     }
-
-    //l.imprimir();
+    
+    cout << "Lista original:" << endl;
+    l.imprimir();
 
     l.inserirFinal(l.calcularTamanho());
-
+    
+    cout << "Lista apos inserir no final o tamanho atual da lista:" << endl;
     l.imprimir();
 
     return 0;

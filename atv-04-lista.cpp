@@ -60,7 +60,7 @@ struct Lista {
 };
 
 int main(){
-    // 4. Crie um método que receba um número N e insira na lista todos os números de 1 até N.
+    //4. Crie um método que receba um número N e insira na lista todos os números de 1 até N.
     Lista l;
 
     int n;
