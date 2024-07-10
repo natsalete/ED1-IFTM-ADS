@@ -16,24 +16,10 @@ struct No {
 struct Lista {
     No* inicio;
     No* fim;
-    int n;
 
     Lista(){
         inicio = NULL;
         fim = NULL;
-    }
-
-    void inserirInicio(string n) {
-        No* novo = new No(n);
-
-        if(inicio == NULL){
-            inicio = novo;
-            fim = novo;
-        }else {
-            novo->prox = inicio;
-            inicio = novo;
-        }
-        //n++;
     }
 
     void inserirFinal(string n) {
@@ -45,19 +31,6 @@ struct Lista {
             fim->prox = novo;
             fim = novo;
         }
-        //n++;
-    }
-
-    void imprimir() {
-            No* aux = inicio;
-            //printf("%d %d\n", aux, aux->valor);
-            while(aux != NULL) {
-                //printf("%c\n", aux->valor);
-                cout << aux->valor << endl;
-                //printf("%d %d\n", aux->prox, aux->valor);
-                aux = aux->prox;
-            }
-
     }
 
     void etiqueta(string lingua){
@@ -104,8 +77,6 @@ int main(){
         cout << endl;
     }
 
-
-    //l.imprimir();
 
     return 0;
 }
